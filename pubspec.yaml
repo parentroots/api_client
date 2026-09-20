@@ -1,0 +1,21 @@
+name: api_client
+description: A lightweight, clean, and reusable REST API client for Dart and Flutter applications with built-in JSON parsing and error handling.
+version: 0.1.0
+repository: https://github.com/yourusername/api_client # Replace with your actual repository URL before publishing
+issue_tracker: https://github.com/yourusername/api_client/issues # Replace with your actual issue tracker URL before publishing
+topics:
+  - http
+  - rest-api
+  - network
+  - api-client
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  http: ^1.2.0
+  meta: ^1.12.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
