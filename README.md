@@ -1,6 +1,6 @@
-# api_client
+# clean_api_client
 
-[![pub package](https://img.shields.io/badge/pub-v0.1.0-blue.svg)](https://pub.dev/packages/api_client)
+[![pub package](https://img.shields.io/pub/v/clean_api_client.svg)](https://pub.dev/packages/clean_api_client)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Dart SDK](https://img.shields.io/badge/Dart-3.0%2B-0175C2.svg)](https://dart.dev)
 
@@ -24,25 +24,25 @@ A lightweight, clean, and reusable REST API client for Dart and Flutter develope
 
 ## Installation
 
-Add `api_client` to your `pubspec.yaml`:
+Add `clean_api_client` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  api_client: ^0.1.0
+  clean_api_client: ^0.1.0
 ```
 
 Or run:
 
 ```bash
-dart pub add api_client
+dart pub add clean_api_client
 # or for Flutter projects:
-flutter pub add api_client
+flutter pub add clean_api_client
 ```
 
 Import it in your Dart code:
 
 ```dart
-import 'package:api_client/api_client.dart';
+import 'package:clean_api_client/clean_api_client.dart';
 ```
 
 ---
@@ -296,7 +296,7 @@ final response = await api.get(
 You can mock HTTP responses without making any real network calls by supplying a mock client via `http.Client`:
 
 ```dart
-import 'package:api_client/api_client.dart';
+import 'package:clean_api_client/clean_api_client.dart';
 import 'package:http/testing.dart';
 import 'package:http/http.dart' as http;
 import 'package:test/test.dart';

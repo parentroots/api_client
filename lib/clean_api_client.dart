@@ -3,7 +3,7 @@
 /// To get started, instantiate [ApiClient] and make requests:
 ///
 /// ```dart
-/// import 'package:api_client/api_client.dart';
+/// import 'package:clean_api_client/clean_api_client.dart';
 ///
 /// final api = ApiClient(baseUrl: 'https://api.example.com/api/v1');
 ///

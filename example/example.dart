@@ -1,6 +1,6 @@
 // ignore_for_file: avoid_print
 
-import 'package:api_client/api_client.dart';
+import 'package:clean_api_client/clean_api_client.dart';
 
 /// Example data model for typed responses.
 class User {

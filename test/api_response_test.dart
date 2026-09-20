@@ -1,4 +1,4 @@
-import 'package:api_client/api_client.dart';
+import 'package:clean_api_client/clean_api_client.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -1,4 +1,4 @@
-name: api_client
+name: clean_api_client
 description: A lightweight, clean, and reusable REST API client for Dart and Flutter applications with built-in JSON parsing and error handling.
 version: 0.1.0
 repository: https://github.com/parentroots/api_client

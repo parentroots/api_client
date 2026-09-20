@@ -1,4 +1,4 @@
-import 'package:api_client/src/utils/url_builder.dart';
+import 'package:clean_api_client/src/utils/url_builder.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## 0.1.0
 
 ### Added
-- Initial release of `api_client`.
+- Initial release of `clean_api_client`.
 - Support for `GET`, `POST`, `PUT`, `PATCH`, and `DELETE` HTTP methods.
 - Clean `ApiResponse<T>` generic model with status code, headers, and parsed data.
 - Robust URL builder with automatic leading and trailing slash normalization.
